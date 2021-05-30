@@ -12,7 +12,7 @@ class JavaTechieApplicationTests {
 
 	Logger logger = LoggerFactory.getLogger(JavaTechieApplicationTests.class);
 	@Test
-	public void contextLoads() {
+	public  contextLoads() {
 		logger.info("Test Case Executing...");
 		logger.info("Test Case Executing second time...");
 		assertEquals(true,true);
