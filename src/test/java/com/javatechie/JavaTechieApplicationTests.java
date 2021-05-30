@@ -14,6 +14,7 @@ class JavaTechieApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test Case Executing...");
+		logger.info("Test Case Executing second time...");
 		assertEquals(true,true);
 	}
 
